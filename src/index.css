@@ -4,5 +4,11 @@
 @tailwind utilities;
 
 body {
-    background: #000;
+  background: #000;
+}
+.text-gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(-35deg, #fff, #88858542 100%);
+  color: #2575fc;
 }

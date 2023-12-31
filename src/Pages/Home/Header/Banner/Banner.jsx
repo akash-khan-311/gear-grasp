@@ -35,16 +35,18 @@ const Banner = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center">
             <MyBtn label={`let's customize now`} />
-            <div  data-aos="fade-left"
-                data-aos-offset="200"
-                data-aos-delay="50"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="true"
-              >
+            <div
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+              className="mt-10 md:mt-0"
+            >
               <SocialButton />
             </div>
           </div>
