@@ -12,7 +12,16 @@ const WhoWeAre = () => {
     <div className="container mx-auto my-10 px-5 lg:px-0">
       <div className="flex flex-col lg:flex-row justify-start items-center gap-10">
         {/* Who we are image  */}
-        <div className="flex justify-center flex-col md:flex-row  gap-4 w-full lg:w-1/2">
+        <div
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+          className="flex justify-center flex-col md:flex-row  gap-4 w-full lg:w-1/2"
+        >
           {/* First Image */}
           <div className=" h-full">
             <img src={img1} className=" w-full" alt="" />
@@ -30,10 +39,20 @@ const WhoWeAre = () => {
         <div className="text-white  w-full lg:w-1/2">
           <Subtitle text={"who we are"} />
           <div>
-            <SectionTitle
-              title={"AWESOME MOTORCYCLE"}
-              secondTitle={"BUILDER"}
-            />
+            <div
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="true"
+            >
+              <SectionTitle
+                title={"AWESOME MOTORCYCLE"}
+                secondTitle={"BUILDER"}
+              />
+            </div>{" "}
             <p className="text-sm md:text-base my-5">
               {`At GearGrasp, we proudly wear the title of "Awesome Motorcycle
               Builder." Infused with passion and precision, we craft two-wheeled

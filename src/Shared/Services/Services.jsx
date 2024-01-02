@@ -16,9 +16,29 @@ const Services = () => {
     <div className="bg-img overflow-y-hidden">
       <div className="container mx-auto text-white px-5 lg:px-0">
         <div className="flex flex-col justify-center  items-center py-10">
-          <Subtitle text={"WHAT WE DO"} />
-          <SectionTitle title={"THE ART OF"} secondTitle={"SERVICE"} />
-          <p className="my-5 text-sm md:text-base">
+          <div
+            className="flex flex-col justify-center  items-center"
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+          >
+            <Subtitle text={"WHAT WE DO"} />
+            <SectionTitle title={"THE ART OF"} secondTitle={"SERVICE"} />
+          </div>
+          <p
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            className="my-5 text-sm md:text-base"
+          >
             Experience excellence with GearGrasp. The Art of Unmatched
             Automotive Service.
           </p>
