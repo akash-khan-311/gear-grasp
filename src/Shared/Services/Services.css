@@ -1,0 +1,6 @@
+.bg-img {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../assets//Images/Service-BG-6.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}

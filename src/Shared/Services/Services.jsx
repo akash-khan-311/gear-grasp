@@ -1,0 +1,37 @@
+import { useState } from "react";
+import SectionTitle from "../../components/SectionTitle/SectionTitle";
+import Subtitle from "../../components/SubTitle/Subtitle";
+import "./Services.css";
+import { useEffect } from "react";
+import ServicesCard from "../../components/ServicesCard/ServicesCard";
+
+const Services = () => {
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    fetch("/services.json")
+      .then((res) => res.json())
+      .then((data) => setServices(data));
+  }, []);
+  return (
+    <div className="bg-img overflow-y-hidden">
+      <div className="container mx-auto text-white px-5 lg:px-0">
+        <div className="flex flex-col justify-center  items-center py-10">
+          <Subtitle text={"WHAT WE DO"} />
+          <SectionTitle title={"THE ART OF"} secondTitle={"SERVICE"} />
+          <p className="my-5 text-sm md:text-base">
+            Experience excellence with GearGrasp. The Art of Unmatched
+            Automotive Service.
+          </p>
+        </div>
+        {/* Service Items  */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
+          {services.map((service) => (
+            <ServicesCard key={service.id} service={service} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Services;

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;800&display=swap");
+@import "node_modules/react-modal-video/scss/modal-video.scss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,6 +10,29 @@ body {
 .text-gradient {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-linear-gradient(-35deg, #fff, #88858542 100%);
+  background-image: -webkit-linear-gradient(-35deg, #fff, #494646ee 100%);
   color: #2575fc;
+}
+.bg-gradient::before {
+  content: "";
+ 
+  background-color: transparent;
+  background-image: linear-gradient(270deg, #0D0D0D 40%, #4b4646 100%);
+
+}
+.bg-gradient::before {
+ display: block;
+  position: absolute;
+  mix-blend-mode: initial;
+  opacity: 1;
+  border-radius: 0;
+  border-style: initial;
+  border-color: initial;
+  border-block-start-width: 0px;
+  border-block-end-width: 0px;
+  border-inline-end-width: 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100%;
 }

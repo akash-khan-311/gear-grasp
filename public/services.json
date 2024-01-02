@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Custom Bike Builds",
+    "description": "Crafting bespoke motorcycles tailored to your style, ensuring a ride as unique as you are.",
+    "icon": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Service-1.png"
+  },
+  {
+    "id": 2,
+    "title": "Performance Tuning",
+    "description": "Maximize your bike's potential with our precision performance tuning services. Unleash the true power of your machine.",
+    "icon": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Service-4.png"
+  },
+  {
+    "id": 3,
+    "title": "Maintenance & Repairs",
+    "description": "Reliable and efficient maintenance services to keep your bike in peak condition. Quality repairs for a worry-free ride.",
+    "icon": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Service-3.png"
+  },
+  {
+    "id": 4,
+    "title": "Custom Paint Jobs",
+    "description": "Express your personality on the road with our custom paint jobs. Your vision, our artistic touch.",
+    "icon": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Service-2.png"
+  },
+  {
+    "id": 5,
+    "title": "Accessory Installation",
+    "description": "Enhance your riding experience with top-notch accessory installations. Elevate both style and functionality effortlessly.",
+    "icon": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Service-5.png"
+  },
+  {
+    "id": 6,
+    "title": "Consultation Services",
+    "description": "Personalized consultations to guide you through the world of motorcycles. Expert advice for informed decisions.",
+    "icon": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Service-6.png"
+  }
+]
