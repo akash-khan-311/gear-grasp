@@ -9,8 +9,8 @@ const ServicesCard = ({ service }) => {
       data-aos-delay="50"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      data-aos-once="false"
+      data-aos-mirror="false"
+      data-aos-once="true"
       className="group border ease-in-out duration-300 hover:border-blue-800 hover:backdrop-blur-lg hover:bg-white/10 relative overflow-hidden "
     >
       <div className="p-10  space-y-5">
