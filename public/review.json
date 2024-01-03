@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "review": "Outstanding service! The team at GearGrasp went above and beyond to get my bike back on the road. Highly recommended!",
+    "name": "John Doe",
+    "image": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Testimonial-Image-1.jpg",
+    "role": "Customer"
+  },
+  {
+    "id": 2,
+    "review": "Exceptional workmanship and attention to detail. GearGrasp is my go-to for all my bike repair needs. Thank you!",
+    "name": "Jane Smith",
+    "image": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Testimonial-Image-2.jpg",
+    "role": "Customer"
+  },
+  {
+    "id": 3,
+    "review": "Professional and reliable service. They took care of my bike with precision. A trustworthy team indeed!",
+    "name": "Robert John",
+    "image": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Testimonial-Image-3.jpg",
+    "role": "Customer"
+  },
+  {
+    "id": 4,
+    "review": "Impressed by the speed and quality of the repairs. GearGrasp is the real deal for bike enthusiasts!",
+    "name": "Emily White",
+    "image": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Testimonial-Image-4.jpg",
+    "role": "Customer"
+  },
+  {
+    "id": 5,
+    "review": "Friendly staff, fair prices, and top-notch expertise. I trust GearGrasp with all my bike maintenance needs.",
+    "name": "Michael Brown",
+    "image": "https://c1.wallpaperflare.com/preview/435/44/22/outdoors-young-fun-summer-bike-sport.jpg",
+    "role": "Customer"
+  },
+  {
+    "id": 6,
+    "review": "GearGrasp exceeded my expectations. The team's passion for bikes truly reflects in their exceptional service.",
+    "name": "Maria Garcia",
+    "image": "https://pixahive.com/wp-content/uploads/2021/01/Rider-boy-in-pulse-Rs-308127-pixahive.jpg",
+    "role": "Customer"
+  },
+  {
+    "id": 7,
+    "review": "The best bike repair experience! GearGrasp's skilled technicians are committed to excellence. Highly recommended!",
+    "name": "Daniel Lee",
+    "image": "https://c8.alamy.com/comp/R64RAC/brutal-bearded-biker-poses-on-chopper-in-city-front-view-vintage-bike-rider-on-motorcycle-R64RAC.jpg",
+    "role": "Customer"
+  },
+  {
+    "id": 8,
+    "review": "Prompt service and a friendly atmosphere. GearGrasp is my trusted partner for keeping my bike in top condition.",
+    "name": "Taylor",
+    "image": "https://i.pinimg.com/736x/09/11/dc/0911dcc6a2728566d7e0370fdf174129.jpg",
+    "role": "Customer"
+  },
+  {
+    "id": 9,
+    "review": "Quality repairs with a personal touch. GearGrasp understands bikes like no other. Grateful for their expertise!",
+    "name": "Anderson",
+    "image": "https://w0.peakpx.com/wallpaper/134/238/HD-wallpaper-ktm-bike-ktm-duke-ktm-rc200-ktm-motorcycle-rider-sound-sports-bike-stunt.jpg",
+    "role": "Customer"
+  },
+  {
+    "id": 10,
+    "review": "GearGrasp's team is dedicated and skilled. They transformed my bike, and I couldn't be happier. Truly exceptional service!",
+    "name": "Olivia",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sachin_Rathod_photo_with_ktm_rc_200_taken_in_satara_while_riding_with_besties.jpg/1280px-Sachin_Rathod_photo_with_ktm_rc_200_taken_in_satara_while_riding_with_besties.jpg",
+    "role": "Customer"
+  }
+]

@@ -1,3 +1,4 @@
+import Review from "../../../../Shared/Review/Review";
 import Services from "../../../../Shared/Services/Services";
 import Sponsor from "../../../../Shared/Sponsor/Sponsor";
 import Team from "../../../../Shared/Team/Team";
@@ -14,6 +15,7 @@ const Home = () => {
       <Video />
       <Services />
       <Team />
+      <Review />
     </>
   );
 };
