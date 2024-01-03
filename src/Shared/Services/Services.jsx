@@ -15,7 +15,7 @@ const Services = () => {
   return (
     <div className="bg-img overflow-y-hidden">
       <div className="container mx-auto text-white px-5 lg:px-0">
-        <div className="flex flex-col justify-center  items-center py-10">
+        <div className="flex flex-col justify-center  items-center py-10 text-center">
           <div
             className="flex flex-col justify-center  items-center"
             data-aos="fade-down"
@@ -37,7 +37,7 @@ const Services = () => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="true"
-            className="my-5 text-sm md:text-base"
+            className="my-5 text-sm md:text-base text-center"
           >
             Experience excellence with GearGrasp. The Art of Unmatched
             Automotive Service.
