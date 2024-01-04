@@ -1,7 +1,7 @@
 import { Collapse, Typography, IconButton } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
-import logo from "../../../../assets/Images/logo.png";
+import logo from "../../../assets/Images/logo.png";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -25,8 +25,8 @@ const Navbar = () => {
       <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 ">
         <Typography
           as="li"
-          variant="large" color="white"
-          
+          variant="large"
+          color="white"
           className="p-1 font-semibold font-unbounded "
         >
           <NavLink
@@ -36,7 +36,12 @@ const Navbar = () => {
             home
           </NavLink>
         </Typography>
-        <Typography as="li" variant="large" color="white" className="p-1 font-semibold font-unbounded">
+        <Typography
+          as="li"
+          variant="large"
+          color="white"
+          className="p-1 font-semibold font-unbounded"
+        >
           <NavLink
             to={"/about"}
             className="flex items-center  uppercase hover:text-blue-700 transition-colors"
@@ -46,8 +51,8 @@ const Navbar = () => {
         </Typography>
         <Typography
           as="li"
-          variant="large" color="white"
-          
+          variant="large"
+          color="white"
           className="p-1 font-semibold font-unbounded"
         >
           <NavLink
@@ -59,8 +64,8 @@ const Navbar = () => {
         </Typography>
         <Typography
           as="li"
-          variant="large" color="white"
-          
+          variant="large"
+          color="white"
           className="p-1 font-semibold font-unbounded"
         >
           <NavLink
@@ -72,8 +77,8 @@ const Navbar = () => {
         </Typography>
         <Typography
           as="li"
-          variant="large" color="white"
-          
+          variant="large"
+          color="white"
           className="p-1 font-semibold font-unbounded"
         >
           <a
@@ -83,19 +88,19 @@ const Navbar = () => {
             Pages{" "}
             {dropdown === true ? (
               <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 15.75 7.5-7.5 7.5 7.5"
-              />
-            </svg>
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m4.5 15.75 7.5-7.5 7.5 7.5"
+                />
+              </svg>
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +116,6 @@ const Navbar = () => {
                   d="m19.5 8.25-7.5 7.5-7.5-7.5"
                 />
               </svg>
-             
             )}
             <div
               className={`absolute top-10 bg-black text-white border-t-4 border-blue-900 -right-1/2 transition-all duration-300 ${
@@ -121,8 +125,8 @@ const Navbar = () => {
               <ul className="space-y-3">
                 <Typography
                   as="li"
-                  variant="large" color="white"
-                  
+                  variant="large"
+                  color="white"
                   className="p-1 font-semibold font-unbounded"
                 >
                   <NavLink
@@ -134,8 +138,8 @@ const Navbar = () => {
                 </Typography>
                 <Typography
                   as="li"
-                  variant="large" color="white"
-                  
+                  variant="large"
+                  color="white"
                   className="p-1 font-semibold font-unbounded"
                 >
                   <NavLink
@@ -147,8 +151,8 @@ const Navbar = () => {
                 </Typography>
                 <Typography
                   as="li"
-                  variant="large" color="white"
-                  
+                  variant="large"
+                  color="white"
                   className="p-1 font-semibold font-unbounded"
                 >
                   <NavLink
@@ -160,8 +164,8 @@ const Navbar = () => {
                 </Typography>
                 <Typography
                   as="li"
-                  variant="large" color="white"
-                  
+                  variant="large"
+                  color="white"
                   className="p-1 font-semibold font-unbounded"
                 >
                   <NavLink
@@ -177,8 +181,8 @@ const Navbar = () => {
         </Typography>
         <Typography
           as="li"
-          variant="large" color="white"
-          
+          variant="large"
+          color="white"
           className="p-1 font-semibold font-unbounded"
         >
           <NavLink

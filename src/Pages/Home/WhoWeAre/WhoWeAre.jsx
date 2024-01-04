@@ -1,9 +1,10 @@
-import img1 from "../../../../assets/Images/who we are/who-we-are-1.jpg";
-import img2 from "../../../../assets/Images/who we are/who-we-are-2.jpg";
-import Facilites from "../../../../components/Facilites/Facilites";
-import MyBtn from "../../../../components/MyBtn/MyBtn";
-import SectionTitle from "../../../../components/SectionTitle/SectionTitle";
-import Subtitle from "../../../../components/SubTitle/Subtitle";
+import img1 from "../../../assets/Images/who we are/who-we-are-1.jpg";
+import img2 from "../../../assets/Images/who we are/who-we-are-2.jpg";
+
+import Facilites from "../../../components/Facilites/Facilites";
+import MyBtn from "../../../components/MyBtn/MyBtn";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
+import Subtitle from "../../../components/SubTitle/Subtitle";
 import { BsGear } from "react-icons/bs";
 import "./WhoWeAre.css";
 

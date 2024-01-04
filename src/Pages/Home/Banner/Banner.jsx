@@ -1,7 +1,8 @@
-import MyBtn from "../../../../components/MyBtn/MyBtn";
-import SocialButton from "../../../../components/SocialButton/SocialButton";
-import Subtitle from "../../../../components/SubTitle/Subtitle";
+import MyBtn from "../../../components/MyBtn/MyBtn";
+import SocialButton from "../../../components/SocialButton/SocialButton";
+import Subtitle from "../../../components/SubTitle/Subtitle";
 import Navbar from "../Navbar/Navbar";
+
 import "./Banner.css";
 
 const Banner = () => {
@@ -21,7 +22,6 @@ const Banner = () => {
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 data-aos-once="true"
-                
                 data-aos-anchor-placement="top-center"
                 className="banner-heading "
               >
