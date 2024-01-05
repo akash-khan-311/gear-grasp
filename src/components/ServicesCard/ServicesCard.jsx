@@ -11,7 +11,7 @@ const ServicesCard = ({ service }) => {
       data-aos-easing="ease-in-out"
       data-aos-mirror="false"
       data-aos-once="true"
-      className="group border ease-in-out duration-300 hover:border-blue-800 hover:backdrop-blur-lg hover:bg-white/10 relative overflow-hidden "
+      className="group border ease-in-out duration-300 hover:border-blue-800 hover:bg-black hover:bg-white/10  relative overflow-hidden "
     >
       <div className="p-10  space-y-5">
         <h3 className="text-3xl  uppercase">{title}</h3>
