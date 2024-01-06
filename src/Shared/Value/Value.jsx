@@ -1,3 +1,4 @@
+import ProgressBar from "../../components/ProgressBar/ProgressBar";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import Subtitle from "../../components/SubTitle/Subtitle";
 import "./Value.css";
@@ -17,6 +18,11 @@ const Value = () => {
             lies in crafting unparalleled quality, setting standards beyond
             compare. Experience true craftsmanship with us.
           </p>
+        </div>
+        <div className="flex items-center gap-x-5 flex-wrap justify-center md:justify-start">
+          <ProgressBar percentage={93} title={"creativity"} />
+          <ProgressBar percentage={97} title={"technique"} />
+          <ProgressBar percentage={90} title={"ability"} />
         </div>
       </div>
     </div>
