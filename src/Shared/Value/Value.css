@@ -1,0 +1,7 @@
+.value-bg {
+      background: linear-gradient(to left, rgba(0, 0, 0, 0.164) 20%, rgb(0, 0, 0) 60%) ,
+    url("../../assets/Images/value.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
