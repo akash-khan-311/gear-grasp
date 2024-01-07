@@ -13,7 +13,7 @@ const Countup = ({ count, text, subText }) => {
     >
       <div>
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold relative text-center">
-          {counterOn && <CountUp duration={10} start={0} end={count} />}
+          {counterOn && <CountUp duration={3} start={0} end={count} />}
           <span className="uppercase text-blue-700 text-lg absolute ">
             {subText}
           </span>
