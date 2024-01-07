@@ -5,7 +5,7 @@ import img3 from "../../assets/Images/Gallery-3.jpg";
 
 const Gellary = () => {
   return (
-    <div className="py-20">
+    <div className="container mx-auto px-5 lg:px-0 py-20">
       <PhotoProvider>
         <div className="flex justify-between items-center gap-10">
           <div className="foo">

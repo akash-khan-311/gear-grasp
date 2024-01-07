@@ -7,13 +7,10 @@ const ServicesPage = () => {
   return (
     <div className="">
       <PageTitle title={"services"} />
-      <div className="container mx-auto px-5 lg:px-0">
+      <div className="">
         <Services />
         <Value />
         <Review />
-        <div className="text-white">
-            
-        </div>
       </div>
     </div>
   );

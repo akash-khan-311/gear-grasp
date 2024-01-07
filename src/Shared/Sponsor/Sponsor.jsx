@@ -38,7 +38,7 @@ const Sponsor = () => {
     ],
   };
   return (
-    <div className="my-14 ">
+    <div className="container mx-auto my-14 ">
       <Slider {...settings}>
         <div className="flex justify-center items-center">
           <img
