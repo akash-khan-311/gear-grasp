@@ -18,7 +18,7 @@ const WhoWeAre = () => {
           <Subtitle text={"who we are"} />
           <SectionTitle title={"AWESOME MOTORCYCLE"} secondTitle={"BUILDER"} />
           <p className="text-white">
-            t GearGrasp, we are more than just enthusiasts; we are craftsmen
+            At GearGrasp, we are more than just enthusiasts; we are craftsmen
             dedicated to the art of building exceptional motorcycles. With
             passion fueling our creativity, we bring expertise and innovation to
             every project, delivering awe-inspiring rides that embody the spirit

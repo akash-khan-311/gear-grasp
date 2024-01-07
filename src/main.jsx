@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import "react-photo-view/dist/react-photo-view.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
