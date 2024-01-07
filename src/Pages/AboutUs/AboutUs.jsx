@@ -1,4 +1,5 @@
 import PageTitle from "../../components/PageTitle/PageTitle";
+import WhoWeAre from "./WhoWeAre/WhoWeAre";
 
 const AboutUs = () => {
   return (
@@ -7,6 +8,7 @@ const AboutUs = () => {
         <div>
           <PageTitle title={"about us"} />
         </div>
+        <WhoWeAre />
       </div>
     </div>
   );

@@ -12,6 +12,7 @@ module.exports = withMT({
     extend: {
       fontFamily: {
         unbounded: ["Unbounded", "sans-serif"],
+        sign: ["Satisfy", "sans-serif"],
       },
     },
   },
