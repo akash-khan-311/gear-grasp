@@ -3,8 +3,9 @@ import Sponsor from "../../Shared/Sponsor/Sponsor";
 import Team from "../../Shared/Team/Team";
 import Value from "../../Shared/Value/Value";
 import Video from "../../Shared/Video/Video";
-import Gellary from "../../components/Gellary/Gellary";
+
 import PageTitle from "../../components/PageTitle/PageTitle";
+import Images from "./Images/Images";
 import WhoWeAre from "./WhoWeAre/WhoWeAre";
 
 const AboutUs = () => {
@@ -16,7 +17,9 @@ const AboutUs = () => {
         </div>
         <div className="">
           <WhoWeAre />
-          <Gellary />
+          <div className="py-10">
+            <Images />
+          </div>
           <Value />
           <Review />
           <Video />
