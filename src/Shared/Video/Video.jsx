@@ -2,7 +2,9 @@ import { useState } from "react";
 import "./Video.css";
 import { IoIosPlay } from "react-icons/io";
 import ModalVideo from "react-modal-video";
-import Counter from "../../components/Counter/Counter";
+
+import Countup from "../../components/Countup/Countup";
+
 const Video = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -34,21 +36,13 @@ const Video = () => {
           {/* Video content */}
           <div className="w-full  md:w-1/2 mt-10 md:mt-0 ">
             <div className="space-y-10">
-              <div className="flex flex-col md:flex-row justify-between gap-10">
-                <Counter number={"10"} count={"th"} text={"years experience"} />
-                <Counter
-                  number={"35"}
-                  count={"+"}
-                  text={"Mechanic & builder"}
-                />
+              <div className="flex flex-col md:flex-row justify-around gap-10">
+                <Countup count={10} text={"YEARS EXPERIENCE"} subText={"+"} />
+                <Countup count={35} text={"MECHANIC & BUILDER"} subText={"+"} />
               </div>
-              <div className="flex flex-col md:flex-row justify-between space-y-10 md:space-y-0">
-                <Counter number={"10"} count={"th"} text={"years experience"} />
-                <Counter
-                  number={"35"}
-                  count={"+"}
-                  text={"Mechanic & builder"}
-                />
+              <div className="flex flex-col md:flex-row justify-around space-y-10 md:space-y-0 ">
+                <Countup count={1250} text={"Project done"} subText={"+"} />
+                <Countup count={70} text={"win awards"} subText={"+"} />
               </div>
             </div>
           </div>

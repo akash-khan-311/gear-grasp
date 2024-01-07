@@ -7,6 +7,7 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import Subtitle from "../../../components/SubTitle/Subtitle";
 import { BsGear } from "react-icons/bs";
 import "./WhoWeAre.css";
+import Countup from "../../../components/Countup/Countup";
 
 const WhoWeAre = () => {
   return (
@@ -31,8 +32,7 @@ const WhoWeAre = () => {
           <div className=" h-full flex flex-col gap-y-5">
             <img src={img2} className=" w-full" alt="" />
             <div className="text-white py-2 border border-blue-800 h-full w-full flex flex-col justify-center items-center bg-style">
-              <h1 className="text-2xl ">1,250 +</h1>
-              <h2 className="text-xl text-center uppercase">Project done </h2>
+              <Countup count={1250}  text={"project done"} subText={"+"} />
             </div>
           </div>
         </div>
