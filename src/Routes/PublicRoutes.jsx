@@ -3,6 +3,8 @@ import Root from "../Layout/Root";
 import Home from "../Pages/Home/Home/Home";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 
+import ServicesPage from "../Pages/Services/Services";
+
 const Router = createBrowserRouter([
   {
     path: "/",
@@ -10,6 +12,7 @@ const Router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/about", element: <AboutUs /> },
+      { path: "/services", element: <ServicesPage /> },
     ],
   },
 ]);

@@ -10,17 +10,19 @@ import WhoWeAre from "./WhoWeAre/WhoWeAre";
 const AboutUs = () => {
   return (
     <div className="">
-      <div className="container mx-auto px-5 lg:px-0">
+      <div className="">
         <div>
           <PageTitle title={"about us"} />
         </div>
-        <WhoWeAre />
-        <Gellary />
-        <Value />
-        <Review />
-        <Video />
-        <Team />
-        <Sponsor />
+        <div className="container mx-auto px-5 lg:px-0">
+          <WhoWeAre />
+          <Gellary />
+          <Value />
+          <Review />
+          <Video />
+          <Team />
+          <Sponsor />
+        </div>
       </div>
     </div>
   );
