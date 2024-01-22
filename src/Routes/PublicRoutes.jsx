@@ -6,6 +6,7 @@ import AboutUs from "../Pages/AboutUs/AboutUs";
 import ServicesPage from "../Pages/Services/Services";
 import GalleryPage from "../Pages/GalleryPage/GalleryPage";
 import Projects from "../Pages/Projects/Projects";
+import TeamPage from "../Pages/TeamPage/TeamPage";
 
 const Router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const Router = createBrowserRouter([
       { path: "/services", element: <ServicesPage /> },
       { path: "/projects", element: <Projects /> },
       { path: "/gallery", element: <GalleryPage /> },
+      { path: "/team", element: <TeamPage /> },
     ],
   },
 ]);
