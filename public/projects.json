@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "projectName": "Stealth Rider",
+    "description": "Sleek design, unmatched performance. A true masterpiece on two wheels.",
+    "customerReview": "Thrilled with the results! Exceeded all expectations.",
+    "projectCompleteDate": "2023-04-15",
+    "projectImage": "https://i.ibb.co/twf0YYZ/stealth-black-1.webp",
+    "customerProfileImage": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Testimonial-Image-1.jpg",
+    "customerName": "Alex Turner"
+  },
+  {
+    "id": 2,
+    "projectName": "Thunderbolt Cruiser",
+    "description": "Powerful cruiser with a roar that commands attention on the highway.",
+    "customerReview": "Absolutely love my new ride! A dream come true.",
+    "projectCompleteDate": "2023-06-02",
+    "projectImage": "https://i.ibb.co/PcJZWSP/Thunderbolt-Cruiser.jpg",
+    "customerProfileImage": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Testimonial-Image-2.jpg",
+    "customerName": "Elena Rodriguez"
+  },
+  {
+    "id": 3,
+    "projectName": "Urban Explorer",
+    "description": "Versatile city explorer designed for agility and urban adventure.",
+    "customerReview": "Perfect for navigating city streets. Couldn't be happier.",
+    "projectCompleteDate": "2023-07-20",
+    "projectImage": "https://i.ibb.co/hs22gGS/Urban-Explorer.jpg",
+    "customerProfileImage": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Testimonial-Image-3.jpg",
+    "customerName": "David Patel"
+  },
+  {
+    "id": 4,
+    "projectName": "Retro Revival",
+    "description": "Timeless design meets modern technology. A classic reborn.",
+    "customerReview": "Captures the essence of the past with cutting-edge features.",
+    "projectCompleteDate": "2023-08-12",
+    "projectImage": "https://i.ibb.co/9pssS5H/Retro-Revival.png",
+    "customerProfileImage": "https://gtkit.rometheme.pro/gaztem/wp-content/uploads/sites/41/2023/11/Testimonial-Image-4.jpg",
+    "customerName": "Mia Thompson"
+  },
+  {
+    "id": 5,
+    "projectName": "Adrenaline Rush",
+    "description": "High-performance beast built for speed and an unmatched adrenaline rush.",
+    "customerReview": "Unbelievable speed and control. Exhilarating experience!",
+    "projectCompleteDate": "2023-09-30",
+    "projectImage": "https://i.ibb.co/c6wj4y0/Adrenaline-Rush.jpg",
+    "customerProfileImage": "https://c1.wallpaperflare.com/preview/435/44/22/outdoors-young-fun-summer-bike-sport.jpg",
+    "customerName": "Carlos Mendez"
+  },
+  {
+    "id": 6,
+    "projectName": "Cafe Racer Elegance",
+    "description": "Elegant cafe racer design combined with precision engineering.",
+    "customerReview": "Sleek, stylish, and a joy to ride. A true head-turner.",
+    "projectCompleteDate": "2023-11-18",
+    "projectImage": "https://i.ibb.co/yYTt7BQ/Cafe-Racer-Elegance.jpg",
+    "customerProfileImage": "https://pixahive.com/wp-content/uploads/2021/01/Rider-boy-in-pulse-Rs-308127-pixahive.jpg",
+    "customerName": "Sophie Johnson"
+  }
+]
