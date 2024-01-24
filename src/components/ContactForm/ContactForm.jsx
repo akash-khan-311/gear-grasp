@@ -5,7 +5,7 @@ import Subtitle from "../SubTitle/Subtitle";
 const ContactForm = () => {
   return (
     <div className="container mx-auto px-5 lg:px-0 py-10">
-      <div className="flex justify-center ">
+      <div className="flex justify-center flex-col lg:flex-row">
         <img src={image} alt="" />
         <div className="lg:ml-10 ml-0 text-white space-y-7">
           <Subtitle text={"question form"} />
