@@ -7,6 +7,7 @@ import ServicesPage from "../Pages/Services/Services";
 import GalleryPage from "../Pages/GalleryPage/GalleryPage";
 import Projects from "../Pages/Projects/Projects";
 import TeamPage from "../Pages/TeamPage/TeamPage";
+import FAQ from "../Pages/FAQ/FAQ";
 
 const Router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const Router = createBrowserRouter([
       { path: "/projects", element: <Projects /> },
       { path: "/gallery", element: <GalleryPage /> },
       { path: "/team", element: <TeamPage /> },
+      { path: "/faq", element: <FAQ /> },
     ],
   },
 ]);
