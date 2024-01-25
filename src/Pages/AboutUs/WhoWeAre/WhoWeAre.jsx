@@ -10,7 +10,16 @@ const WhoWeAre = () => {
     <div className="container mx-auto px-5 lg:px-0 py-20">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-10">
         {/* Image */}
-        <div className="w-full lg:w-1/3">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+          className="w-full lg:w-1/3"
+        >
           <img src={aboutUs} alt="" />
         </div>
         {/* Content */}

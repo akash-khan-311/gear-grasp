@@ -12,7 +12,9 @@ const AboutUs = () => {
   return (
     <div className="">
       <div className="">
-        <div>
+        <div
+        
+        >
           <PageTitle title={"about us"} />
         </div>
         <div className="">

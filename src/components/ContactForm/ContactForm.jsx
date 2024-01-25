@@ -6,7 +6,17 @@ const ContactForm = () => {
   return (
     <div className="container mx-auto px-5 lg:px-0 py-10">
       <div className="flex justify-center flex-col lg:flex-row">
-        <img src={image} alt="" />
+        <img
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+          src={image}
+          alt=""
+        />
         <div className="lg:ml-10 ml-0 text-white space-y-7">
           <Subtitle text={"question form"} />
           <SectionTitle title={"form to fire your"} secondTitle={"questions"} />
