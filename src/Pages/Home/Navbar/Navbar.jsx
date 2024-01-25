@@ -186,7 +186,7 @@ const Navbar = () => {
           className="p-1 font-semibold font-unbounded"
         >
           <NavLink
-            to={"/projects"}
+            to={"/contact"}
             className="flex items-center  uppercase hover:text-blue-700 transition-colors"
           >
             Contact

@@ -40,7 +40,7 @@ const Faqs = () => {
             className={`${
               open === 1
                 ? "text-blue-600 hover:text-blue-600"
-                : "text-white hover:text-white"
+              : "text-white hover:text-white"
             } uppercase`}
             onClick={() => handleOpen(1)}
           >

@@ -9,6 +9,7 @@ import Projects from "../Pages/Projects/Projects";
 import TeamPage from "../Pages/TeamPage/TeamPage";
 import FAQ from "../Pages/FAQ/FAQ";
 import BlogsPage from "../Pages/Blogs/BlogsPage";
+import ContactPage from "../Pages/ContactPage/ContactPage";
 
 const Router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ const Router = createBrowserRouter([
       { path: "/team", element: <TeamPage /> },
       { path: "/faq", element: <FAQ /> },
       { path: "/blogs", element: <BlogsPage /> },
+      { path: "/contact", element: <ContactPage /> },
     ],
   },
 ]);
