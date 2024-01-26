@@ -10,8 +10,10 @@ import TeamPage from "../Pages/TeamPage/TeamPage";
 import FAQ from "../Pages/FAQ/FAQ";
 import BlogsPage from "../Pages/Blogs/BlogsPage";
 import ContactPage from "../Pages/ContactPage/ContactPage";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const Router = createBrowserRouter([
+  { path: "*", element: <ErrorPage /> },
   {
     path: "/",
     element: <Root />,

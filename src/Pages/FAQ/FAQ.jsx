@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import Faqs from "../../components/Accordion/Accordion";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import PageTitle from "../../components/PageTitle/PageTitle";
