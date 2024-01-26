@@ -1,29 +1,15 @@
-import { Collapse, Typography, IconButton } from "@material-tailwind/react";
+import { Typography, IconButton } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import logo from "../../../assets/Images/logo.png";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import Sidebar from "../../../components/Sidebar/Sidebar";
 
 const Navbar = () => {
-  const [isActive, setActive] = useState(false);
+  const [isActive, setActive] = useState(true);
 
   const [dropdown, setDropdown] = useState(false);
-
-  const handleWindowResize = () => window.innerWidth >= 960 && setActive(false);
-
-  useEffect(() => {
-    window.addEventListener("resize", handleWindowResize);
-
-    return () => {
-      window.removeEventListener("resize", handleWindowResize);
-    };
-  }, []);
-
-  const handleToggle = () => {
-    setActive(!isActive);
-  };
 
   const NavList = () => {
     return (
@@ -218,7 +204,7 @@ const Navbar = () => {
             variant="text"
             className="ml-auto h-10 w-10 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
-            onClick={handleToggle}
+            onClick={() => setActive(!isActive)}
           >
             {isActive ? (
               <Bars3Icon className="h-10 w-10 text-blue-700" strokeWidth={2} />
