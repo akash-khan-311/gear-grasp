@@ -4,14 +4,14 @@ import { useEffect, useState } from "react";
 import logo from "../../../assets/Images/logo.png";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import Sidebar from "../../../components/Sidebar/Sidebar";
 
 const Navbar = () => {
-  const [openNav, setOpenNav] = useState(false);
+  const [isActive, setActive] = useState(false);
 
   const [dropdown, setDropdown] = useState(false);
 
-  const handleWindowResize = () =>
-    window.innerWidth >= 960 && setOpenNav(false);
+  const handleWindowResize = () => window.innerWidth >= 960 && setActive(false);
 
   useEffect(() => {
     window.addEventListener("resize", handleWindowResize);
@@ -20,6 +20,10 @@ const Navbar = () => {
       window.removeEventListener("resize", handleWindowResize);
     };
   }, []);
+
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
 
   const NavList = () => {
     return (
@@ -119,7 +123,7 @@ const Navbar = () => {
               </svg>
             )}
             <div
-              className={`absolute top-10 bg-black text-white border-t-4 border-blue-900 -right-1/2 transition-all duration-300 ${
+              className={`absolute top-10 bg-black text-white border-t-4 border-blue-900  transition-all duration-300 ${
                 dropdown === true ? "w-[150px] p-4" : "hidden"
               }`}
             >
@@ -201,7 +205,10 @@ const Navbar = () => {
     <div>
       <nav className="container mx-auto">
         <div className="flex items-center  justify-between text-blue-gray-900">
-          <Typography variant="h6" className="mr-4 cursor-pointer py-1.5">
+          <Typography
+            variant="h6"
+            className="mr-4 cursor-pointer py-1.5 lg:flex hidden"
+          >
             <img src={logo} className="w-52" alt="GEARGRASP" />
           </Typography>
           <div className="hidden lg:block">
@@ -209,20 +216,18 @@ const Navbar = () => {
           </div>
           <IconButton
             variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            className="ml-auto h-10 w-10 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
-            onClick={() => setOpenNav(!openNav)}
+            onClick={handleToggle}
           >
-            {openNav ? (
-              <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+            {isActive ? (
+              <Bars3Icon className="h-10 w-10 text-blue-700" strokeWidth={2} />
             ) : (
-              <Bars3Icon className="h-6 w-6" strokeWidth={2} />
+              <XMarkIcon className="h-10 w-10 text-blue-700" strokeWidth={2} />
             )}
           </IconButton>
         </div>
-        <Collapse open={openNav}>
-          <NavList />
-        </Collapse>
+        <Sidebar NavList={NavList} isActive={isActive} />
       </nav>
     </div>
   );
